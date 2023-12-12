@@ -11,6 +11,7 @@ async function processNumbers(inputFilePath, outputFilePath) {
     console.log('Processing complete. Output written to', outputFilePath);
   } catch (error) {
     console.error('Error:', error.message);
+    //test
   }
 }
 const inputFilePath = 'samples/sample_input_numbers.json';
